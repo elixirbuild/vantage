@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="refresh" content="31556952">
+    <title>Elixir Games | Home</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="script.js"></script>
+</head>
+<body onclick="bodyClick()">
+
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a id="active">Menu</a>
+        <a href="#about">About</a>
+        <a href="#contact" onclick="send()">Feedback</a>
+        <a onmouseover="myFunction()" class="display" style="display: block;" href="marketplace-sign-up.html">Marketplace <i class="fa fa-caret-down"></i></a>
+        <a class="active" href="#home" style="right: 100%;">Download</a>
+
+        <div id="myDropdown" class="dropdown-content">
+            <p class="p2">Featured Creators</p>
+            <a href="marketplace-elixir_games.html">Elixir Games</a>
+            <br>
+            <br>
+            <p class="p2">In Development</p>
+            <a href="marketplace-in-development.html">Shadows</a>
+        </div>
+    </div>
+
+    <div class="gameAn">
+        <h1 class="head1">Beginning!</h1>
+        <p class="p1">Brand new intro and we're now currently working on our Games!</p>
+        <p class="p1">The Website is currently empty, becuase Rogan the developer is lazy.</p>
+            <div class="ytIframe" id="iFrame">
+            <br>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/0SXJbd7RKCg?start=2" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" id="iframe"
+                onclick="iFrameClick()"></iframe>
+        </div>
+        <br>
+        <button class="btn1" id="btn1">Learn More</button>
+
+        <!--<a class="a1" onclick="show()" id="show">Show Video</a>!-->
+        <a class="a1" onclick="hide()" style="display: none;" id="hide"></a>
+
+        <br>
+    </div>
+</body>
+</html>
