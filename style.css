@@ -86,7 +86,6 @@ button::selection {
 }
 
 .topnav a:hover {
-  background-color: #1f2b3d;
   border-bottom: 1px solid white;
 }
 
@@ -96,6 +95,7 @@ button::selection {
 }
 .topnav a.active:hover {
     opacity: 80.0%;
+    border-bottom: 1px solid #242f42;
 }
 
 .topnav .login-container {
