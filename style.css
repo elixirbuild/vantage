@@ -82,10 +82,12 @@ button::selection {
   font-size: 10px;
   transition: 0.25s;
   cursor: pointer;
+  border-bottom: 1px solid #242f42;
 }
 
 .topnav a:hover {
   background-color: #1f2b3d;
+  border-bottom: 1px solid white;
 }
 
 .topnav a.active {
