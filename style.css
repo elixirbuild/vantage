@@ -92,6 +92,9 @@ button::selection {
   background-color: #2196F3;
   color: white;
 }
+.topnav a.active:hover {
+    opacity: 80.0%;
+}
 
 .topnav .login-container {
   float: right;
