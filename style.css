@@ -308,7 +308,7 @@ button::selection {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
-  margin-left: 195px;
+  margin-left: 194px;
   margin-top: 40px;
   color: white;
   transition: 0.25s;
