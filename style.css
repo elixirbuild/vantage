@@ -323,6 +323,7 @@ button::selection {
   height: 10px;
   text-align: left;
   transition: none;
+  border-bottom: none;
 }
 
 /* Change color of dropdown links on hover */
